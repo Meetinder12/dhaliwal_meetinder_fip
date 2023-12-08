@@ -8,28 +8,32 @@
 <body>
 <div id="mobile-outline">
     <!--------------header tag start-------------------->
-            <header>
-                <nav id="main-nav">
-                    <div id="meanu-list-header">
-                        <ul>
-                        <a href="#">Home</a>
-                        <a href="#">Rooms</a>
-                        <a href="#">packages</a>
-                        <a href="#">Dining</a>
-                        <a href="#">Spa Activities</a>
-                        <a href="#">Reservations</a>
-                        </ul>
-                    </div>
-                </nav>
-                <div id="Logo">
-                    <img src="images/couples_resort_logo.svg" alt="Logo" height="60px" width="244px">
-                </div>
-                <div id="book-now-header"><a href="#">Book Now</a></div>
-           
-            </header>
+    <header class="grid-con" id="main-header">
+        <nav id="main-nav" class="col-span-full">
+            <h2 class="hidden">Main Navigation</h2>
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+            <img src="images/burger.svg" alt="hamburger menu icon">
+            </label>
+            <div id="burger-con">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Rooms</a></li>
+                    <li><a href="#">Packages</a></li>
+                    <li><a href="#">Dining</a></li>
+                    <li><a href="#">Spa Activites</a></li>
+                    <li><a href="#">Reservations</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div id="logo" class="col-span-full">
+            <img src="images/couples_resort_logo.svg" alt="Couples Resort Logo">
+        </div>
+    </header>  
             <!--------------main tag start----------------->
             <main>
                 <section id="first-para">
+                    <h2 class="hidden">start of the page</h2>
                         <div class="picture"><img src="images/spa.jpg" alt="spa" width="412px" height="287px"></div>
                         <div id="name-of-page">
                             <p><span>Couples Resort</span></p>
