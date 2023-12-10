@@ -224,6 +224,10 @@ input, textarea {
    background: url(../images/relax.png) no-repeat;
    height: 195px;
  }
+ #third-para-spa{
+   background: url(../images/luckyguy.jpg);
+   height: 195px;
+ }
 
 #why-choose-us-heading-box {
    align-self: end;
@@ -448,3 +452,64 @@ input, textarea {
    line-height: 18px;
    font-size: 11px;
 }
+/* ---dining page*/
+#hero-dining {
+   background: url(../images/lot-of-food.png) no-repeat;
+   height: 200px;
+}
+
+
+.book-now {
+   background-color: #9a2018;
+   color: #fff;
+   font-size: 16px;
+   transition: background-color 500ms linear;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-style: italic;
+   transition:all 0.3s ease;
+   cursor: pointer;
+}
+
+.book-now:hover {
+   background-color: rgb(196, 28, 28);
+}
+
+#book-now-hero {
+   height: 67px;
+}
+
+#hero-heading-box {
+   align-self: end;
+}
+
+.hero-img-h2, .hero-img-h3 {
+   background: rgb(255, 255, 255);
+   padding: 10px 15px;
+   font-size: 14px;
+}
+
+.hero-img-h2 span,  .hero-img-h3 span {
+   color: #9a2018;
+   font-size: 12px;
+}
+
+.line-separator {
+   margin-top: 20px;
+   border-top: solid 3px #CF6666;
+   padding-top: 20px;
+}
+
+#hero-summary p {
+   font-size: 14px;
+   line-height: 22px;
+   margin-bottom: 20px;
+}
+
+/*last dining ---------------*/
+#dining-hero-con {
+   background: url(../images/foodand\ wine1.png) no-repeat;
+   height: 195px;
+}
+
