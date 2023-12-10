@@ -279,6 +279,10 @@ input, textarea {
    height: 195px;
 }
 
+input[type="checkbox"]:checked + span::after{
+   content:"\1F31E";
+}
+
 #about-hero-heading-box {
    align-self: end;
 }
@@ -524,3 +528,4 @@ ul li{
    background: url(../images/lucky-guy.png);
    height: 195px;
  }
+ 
