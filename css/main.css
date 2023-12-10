@@ -278,9 +278,16 @@ input, textarea {
    background: url(../images/about-us-hero.jpg) no-repeat;
    height: 195px;
 }
-
+input[type="checkbox"]{
+   background-color: #fff;
+}
+input[type="checkbox"]:checked + span {
+   color:#9a2018
+}
 input[type="checkbox"]:checked + span::after{
    content:"\1F31E";
+   font-size: 20px;
+   margin-left: 15px;
 }
 
 #about-hero-heading-box {
