@@ -213,13 +213,17 @@ input, textarea {
 
 #why-choose-us-nav ul li a.selected {
    border-left: #9a2018 solid 5px;
- }
+}
 
 
 #why-choose-us-hero-con {
   background: url(../images/why-choose-us-hero.jpg) no-repeat;
   height: 195px;
 }
+#first-back-pic {
+   background: url(../images/relax.png) no-repeat;
+   height: 195px;
+ }
 
 #why-choose-us-heading-box {
    align-self: end;
