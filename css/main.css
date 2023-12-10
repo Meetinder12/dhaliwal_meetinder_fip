@@ -159,7 +159,7 @@ input, textarea {
    padding-top: 20px;
 }
 
-#hero-summary p {
+.hero-summary p {
    font-size: 14px;
    line-height: 22px;
    margin-bottom: 20px;
@@ -220,14 +220,6 @@ input, textarea {
   background: url(../images/why-choose-us-hero.jpg) no-repeat;
   height: 195px;
 }
-#first-back-pic {
-   background: url(../images/relax.png) no-repeat;
-   height: 195px;
- }
- #third-para-spa{
-   background: url(../images/luckyguy.jpg);
-   height: 195px;
- }
 
 #why-choose-us-heading-box {
    align-self: end;
@@ -513,3 +505,22 @@ input, textarea {
    height: 195px;
 }
 
+#why-choose-dine-nav{
+   background: url(../images/meal.png);
+   opacity: 80%;
+}
+
+ul li{
+   list-style: none;
+   display: inline-block;
+   padding: 25px;
+}
+/* -----spa page pics*/
+#first-back-pic {
+   background: url(../images/relax.png) no-repeat;
+   height: 195px;
+ }
+ #third-para-spa{
+   background: url(../images/lucky-guy.png);
+   height: 195px;
+ }
